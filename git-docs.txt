@@ -17,3 +17,6 @@ branches to avoid changes to the main file thats why create branch(copy) of file
 git branch// to check which branches u have (like master(default))
 git branch (branch name)// used to create new brach at master level
 git checkout (branch name)// to switch to that branch which u like to switch
+
+
+new line
