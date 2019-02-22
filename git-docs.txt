@@ -25,3 +25,4 @@ git checkout -b (new branch name)// equals to 2 commands 1=> git branch (new bra
 git show (comit id) // to view changes wi respect to the parent 
 git branch -d (branch name)// to delete the label of branch after merging 
 >>>>>>> new-version
+git merge (branch name to merge)// to merge the branch into checkouted branch
