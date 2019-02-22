@@ -1,0 +1,10 @@
+git clone (re pository url ro clone)
+press q //to exit from the output log
+git log // to view the commits on repositry  
+git log --stat //to view the commit (versions) history of repositry with more statistical details
+git diff (commite id) (scnd commit id) // to view the differences between the codes
+git config --global color.ui auto //to view coloured output in log 
+git checkout (commit id)// used to rewert the most recent version to a specific version(commit) to overcome the recently occured bug
+ls // commad to see the list of files in na repository
+ls -a // to see also a hidden files with other files 
+git add (file)// used to add files into the stagging area to track and commit it
