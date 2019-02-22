@@ -20,3 +20,4 @@ git checkout (branch name)// to switch to that branch which u like to switch
 
 git log --graph --oneline (branch name) (branch name2 ) //used to see the structure of project according to the branches 
 git checkout -b (new branch name)// equals to 2 commands 1=> git branch (new branch name ) 2=> git checkout (new branch name)
+git show (comit id) // to view changes wi respect to the parent 
