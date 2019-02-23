@@ -1,6 +1,7 @@
 git clone (re pository url ro clone)
 press q //to exit from the output log
 git log // to view the commits on repositry  
+git status// to check the stas of the working files according to master commit
 git log --stat //to view the commit (versions) history of repositry with more statistical details
 git diff (commite id) (scnd commit id) // to view the differences between the codes in commits
 git config --global color.ui auto //to view coloured output in log 
@@ -30,3 +31,4 @@ git remote -v// to view verbose of remote repositories
 git push (aliasnameforrepositry) (branch name to push)
 
 
+wedwew
