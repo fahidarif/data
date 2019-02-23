@@ -30,3 +30,4 @@ git remote add (aliasnameforrepositry) (repoitory link to connect)//to create co
 git remote -v// to view verbose of remote repositories
 git push (aliasnameforrepositry) (branch name to push)
 git pull (aliasnameforrepositry) (btanch name to pull)//used to get changes from github to local 
+
