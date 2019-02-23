@@ -24,3 +24,7 @@ git show (comit id) // to view changes wi respect to the parent
 git branch -d (branch name)// to delete the label of branch after merging 
 git merge (branch name to merge)// to merge the branch into checkouted branch
 git log -n 1// to show one commit history or multiple by changing the numbr
+git remote// to view which remote repositories u r connected to 
+git remote add (aliasnameforrepositry) (repoitory link to connect)//to create connection
+git remote -v// to view verbose of remote repositories
+git push (aliasnameforrepositry) (branch name to push)
