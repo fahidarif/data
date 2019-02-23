@@ -1,0 +1,34 @@
+git clone (re pository url ro clone)
+press q //to exit from the output log
+git log // to view the commits on repositry  
+git status// to check the stas of the working files according to master commit
+git log --stat //to view the commit (versions) history of repositry with more statistical details
+git diff (commite id) (scnd commit id) // to view the differences between the codes in commits
+git config --global color.ui auto //to view coloured output in log 
+git checkout (commit id)// used to rewert the most recent version to a specific version(commit) to overcome the recently occured bug
+git checkout master// this cmnd is used revert back to most recent version of the commit
+ls // commad to see the list of files in na repository
+ls -a // to see also a hidden files with other files 
+git add (file)// used to add files into the stagging area to track and commit it
+git diff// this command is used to compare the stagging area file data with the working dirrectory
+git diff --staged// used to compare the files data from stagged area to the repositry which is commited 
+git reset --hard // to reset the changes in working directory according to the stagged files data 
+
+branches to avoid changes to the main file thats why create branch(copy) of file and named it as we like and start experimentall working on it
+git branch// to check which branches u have (like master(default))
+git branch (branch name)// used to create new brach at master level
+git checkout (branch name)// to switch to that branch which u like to switch
+
+git log --graph --oneline (branch name) (branch name2 ) //used to see the structure of project according to the branches 
+git checkout -b (new branch name)// equals to 2 commands 1=> git branch (new branch name ) 2=> git checkout (new branch name)
+git show (comit id) // to view changes wi respect to the parent 
+git branch -d (branch name)// to delete the label of branch after merging 
+git merge (branch name to merge)// to merge the branch into checkouted branch
+git log -n 1// to show one commit history or multiple by changing the numbr
+git remote// to view which remote repositories u r connected to 
+git remote add (aliasnameforrepositry) (repoitory link to connect)//to create connection
+git remote -v// to view verbose of remote repositories
+git push (aliasnameforrepositry) (branch name to push)
+git pull (aliasnameforrepositry) (btanch name to pull)//used to get changes from github to local 
+git rm -r --cached // used to remove all tracking staged files from stagging area
+git rm -r --cached (file name from stagging area to uuntrack)
