@@ -30,5 +30,5 @@ git remote add (aliasnameforrepositry) (repoitory link to connect)//to create co
 git remote -v// to view verbose of remote repositories
 git push (aliasnameforrepositry) (branch name to push)
 git pull (aliasnameforrepositry) (btanch name to pull)//used to get changes from github to local 
-git rm -r --cached // used to remove all tracking staged files from stagging area
+git rm -r --cached . // used to remove all tracking staged files from stagging area
 git rm -r --cached (file name from stagging area to uuntrack)
