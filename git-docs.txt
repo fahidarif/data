@@ -32,3 +32,4 @@ git push (aliasnameforrepositry) (branch name to push)
 git pull (aliasnameforrepositry) (btanch name to pull)//used to get changes from github to local 
 git rm -r --cached . // used to remove all tracking staged files from stagging area
 git rm -r --cached (file name from stagging area to uuntrack)
+git diff (aliasnameforrepositry(origin))/master(branchname from github) master(local branch name)
