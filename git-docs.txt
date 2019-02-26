@@ -39,3 +39,7 @@ git rm -r --cached (file name from stagging area to uuntrack)
 git diff (aliasnameforrepositry(origin))/master(branchname from github) master(local branch name)// to view the differcence between the github remote branch to the local branch
 git log (aliasnameforrepositry(origin))/master(branchname from github)// to view the info about  github pushed repository
 git touch (filename like .gitignore)// to create file
+
+git config --global core.editor ("'C:/Program Files/Sublime Text 2/sublime_text.exe' -n -w") // used to set default editor where n indicate new open in new window
+git config --global push.default upstream
+git config --global merge.conflictstyle diff3
