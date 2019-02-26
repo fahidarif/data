@@ -16,7 +16,7 @@ git reset --hard // to reset the changes in working directory according to the s
 git init // used to initialize the data 
 git status // used to show which file is changed since the last commit
 git add (file)// sed to add the files into the stagging area to track for the commit
-
+ 
 
 branches to avoid changes to the main file thats why create branch(copy) of file and named it as we like and start experimentall working on it
 git branch// to check which branches u have (like master(default))
