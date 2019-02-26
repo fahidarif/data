@@ -16,7 +16,8 @@ git reset --hard // to reset the changes in working directory according to the s
 git init // used to initialize the data 
 git status // used to show which file is changed since the last commit
 git add (file)// sed to add the files into the stagging area to track for the commit
- 
+git commit -m "short message" -m "decription(optional)"//to snapshot to working code into u repo 
+git commit -m 'jsdfkjsefqwe'// u can use single/double quotation mark remain open to use multiple line and type enter to go to new line when u finsh typing then cloase the mark and hit enter to execute commad  
 
 branches to avoid changes to the main file thats why create branch(copy) of file and named it as we like and start experimentall working on it
 git branch// to check which branches u have (like master(default))
@@ -39,6 +40,12 @@ git rm -r --cached (file name from stagging area to uuntrack)
 git diff (aliasnameforrepositry(origin))/master(branchname from github) master(local branch name)// to view the differcence between the github remote branch to the local branch
 git log (aliasnameforrepositry(origin))/master(branchname from github)// to view the info about  github pushed repository
 git touch (filename like .gitignore)// to create file
+git commit --amend //to undo the most recent commit or to change the wording of the commit message
+git shortlog // to view logs in a short descriptive way also shows nmbr of commits according to collaborators
+git shortlog -s -n //displays an alphabetical list of names and the commit messages that go along with them -s to show just the number of commits (rather than each commit's message) and -n to sort them numerically (rather than alphabetically by author name).
+git log --author=Surma // filter commits by author 
+git log --author="Paul Lewis"// to filter by full name 
+git log --grep=bug //We can filter commits with the --grep flag. used to filter commits through their message description written in
 
 git config --global core.editor ("'C:/Program Files/Sublime Text 2/sublime_text.exe' -n -w") // used to set default editor where n indicate new open in new window
 git config --global push.default upstream
