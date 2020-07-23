@@ -1,0 +1,6 @@
+In the Downloadables section, there is a file called sarah_changes.sh, which contains code to make it look like Sarah has 
+modified your fork on GitHub. To run the code, download the file, then using Git Bash or your terminal, cd to the 
+directory where you've saved it. Then type bash sarah_changes.sh followed by a space, followed by the url to your fork.
+ For example, if Caroline were running the code, she would type bash sarah_changes.sh https://github.com/cbuckey-uda/recipes.git, 
+but you should use the url for your fork, not Caroline's fork. If you haven't set up password caching, 
+then you will be prompted to enter your GitHub username and password.

@@ -23,16 +23,20 @@ branches to avoid changes to the main file thats why create branch(copy) of file
 git branch// to check which branches u have (like master(default))
 git branch (branch name)// used to create new brach at master level
 git checkout (branch name)// to switch to that branch which u like to switch
+git checkout -b (new branch name)// equals to 2 commands 1=> git branch (new branch name ) 2=> git checkout (new branch name)
 
 git log --graph --oneline (branch name) (branch name2 ) //used to see the structure of project according to the branches 
-git checkout -b (new branch name)// equals to 2 commands 1=> git branch (new branch name ) 2=> git checkout (new branch name)
 git show (comit id) // to view changes wi respect to the parent 
-git branch -d (branch name)// to delete the label of branch after merging 
+git branch -d (branch name)// to delete the branch after merging 
+git push <remote_name> --delete <branch_name>// used to delete branch from remote
+$ git push <remote_name> :<branch_name>//also used to delete branch from remote
+git branch -D (branch name)// to delete the branch no matter it is merged or not 
 git merge (branch name to merge)// to merge the branch into checkouted branch
 git log -n 1// to show one commit history or multiple by changing the numbr
 git remote// to view which remote repositories u r connected to 
 git remote add (aliasnameforrepositry) (repoitory link to connect)//to create connection
 git remote -v// to view verbose of remote repositories
+git remote set-url (remoteNameInWhichToChangeAddress) (new git remote address)//to change the old remote address to new git remote address
 git push (aliasnameforrepositry) (branch name to push)
 git pull (aliasnameforrepositry) (btanch name to pull)//used to get changes from github to local 
 git rm -r --cached . // used to remove all tracking staged files from stagging area
@@ -50,3 +54,11 @@ git log --grep=bug //We can filter commits with the --grep flag. used to filter 
 git config --global core.editor ("'C:/Program Files/Sublime Text 2/sublime_text.exe' -n -w") // used to set default editor where n indicate new open in new window
 git config --global push.default upstream
 git config --global merge.conflictstyle diff3
+
+git stash save "name of stash" // to save temporarily piece of change for future use if u don't have to commit it at the moment
+git stash list// to show all stashes
+git stash apply "stash unique name like stash{0} etc"// use to restore the change 
+git stash clear // to clear all stash history
+git stash drop "stash unique name"// to clear specific stash
+
+git branch --set-upstream-to=origin/master //to set upstream branch
